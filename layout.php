@@ -6,15 +6,34 @@
     <!doctype html>
     <html lang="ja">
         <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
-        <title>Hello, world!</title>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
         
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+            <title>Hello, world!</title>
+            
+            <style>
+
+                .container {
+                    color:white;
+                }
+                .con1 {
+                    background:red;
+                }
+
+                .con2 {
+                    background:blue;
+                }
+
+                .con3 {
+                    background:green;
+                }
+
+            </style>
+
         </head>
         <body>
     
@@ -29,7 +48,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
         -->
     
-            <div class="container">
+            <div class="container con1">
                 <div class="container-sm">100% wide until small breakpoint</div>
                 <div class="container-md">100% wide until medium breakpoint</div>
                 <div class="container-lg">100% wide until large breakpoint</div>
@@ -37,7 +56,7 @@
                 <div class="container-xxl">100% wide until extra extra large breakpoint</div>
             </div>
 
-            <div class="container">
+            <div class="container con2">
                 <div class="row">
                     <div class="col-sm">
                     One of three columns
@@ -51,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="container con3">
                 <div class="row">
                     <div class="col">
                     1 of 2
