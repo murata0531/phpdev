@@ -32,6 +32,11 @@
                     background:green;
                 }
 
+                .con4 {
+                    background:yellow;
+                    color:black;
+                }
+
             </style>
 
         </head>
@@ -59,13 +64,13 @@
             <div class="container con2">
                 <div class="row">
                     <div class="col-sm">
-                    One of three columns
+                        One of three columns
                     </div>
                     <div class="col-sm">
-                    One of three columns
+                        One of three columns
                     </div>
                     <div class="col-sm">
-                    One of three columns
+                        One of three columns
                     </div>
                 </div>
             </div>
@@ -73,21 +78,57 @@
             <div class="container con3">
                 <div class="row">
                     <div class="col">
-                    1 of 2
+                        1 of 2
                     </div>
                     <div class="col">
-                    2 of 2
+                        2 of 2
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                    1 of 3
+                        1 of 3
                     </div>
                     <div class="col">
-                    2 of 3
+                        2 of 3
                     </div>
                     <div class="col">
-                    3 of 3
+                        3 of 3
+                    </div>
+                </div>
+            </div>
+
+            <div class="container con4">
+                <div class="row align-items-start">
+                    <div class="col">
+                        One of three columns
+                    </div>
+                    <div class="col">
+                        One of three columns
+                    </div>
+                    <div class="col">
+                        One of three columns
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        One of three columns
+                    </div>
+                    <div class="col">
+                        One of three columns
+                    </div>
+                    <div class="col">
+                        One of three columns
+                    </div>
+                </div>
+                <div class="row align-items-end">
+                    <div class="col">
+                        One of three columns
+                    </div>
+                    <div class="col">
+                        One of three columns
+                    </div>
+                    <div class="col">
+                        One of three columns
                     </div>
                 </div>
             </div>
