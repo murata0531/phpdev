@@ -21,7 +21,33 @@
                 // No media query for `xs` since this is the default in Bootstrap */
 
                 /* // Small devices (landscape phones, 576px and up) */
-                @media (min-width: 576px) {}
+                @media (min-width: 576px) {
+
+                    .container {
+                        color:white;
+                    }
+                    .con1 {
+                        background:red;
+                    }
+
+                    .con2 {
+                        background:blue;
+                    }
+
+                    .con3 {
+                        background:green;
+                    }
+
+                    .con4 {
+                        background:yellow;
+                        color:black;
+                    }
+
+                    .con5 {
+                        background:gray;
+                        color:black;
+                    }
+                }
 
                 /* // Medium devices (tablets, 768px and up) */
                 @media (min-width: 768px) {}
@@ -33,32 +59,14 @@
                 @media (min-width: 1200px) {}
 
                 /* // XX-Large devices (larger desktops, 1400px and up) */
-                @media (min-width: 1400px) {}
+                @media (min-width: 1400px) {
 
-                .container {
-                    color:white;
-                }
-                .con1 {
-                    background:red;
+                    body {
+                        background:purple;
+                    }
                 }
 
-                .con2 {
-                    background:blue;
-                }
-
-                .con3 {
-                    background:green;
-                }
-
-                .con4 {
-                    background:yellow;
-                    color:black;
-                }
-
-                .con5 {
-                    background:gray;
-                    color:black;
-                }
+                
 
             </style>
 
