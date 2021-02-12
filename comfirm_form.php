@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <title>form</title>
+    <title>確認フォーム</title>
 
     <style>
 
@@ -51,9 +51,9 @@
         
         <div class="inner-form border border-primary rounded">
 
-            <h1>Hello, world!</h1>
+            <h1>確認フォーム</h1>
 
-            <form class="d-flex flex-column">
+            <form class="d-flex flex-column" method="post">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
