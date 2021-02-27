@@ -55,7 +55,7 @@
 
             <h1>入力フォーム</h1>
 
-            <form class="d-flex flex-column" method="post">
+            <form class="d-flex flex-column" method="post" action="comfirm_form.php">
                 <div class="mb-3">
                     <label for="name" class="form-label">name</label>
                     <!-- <input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp"> -->
