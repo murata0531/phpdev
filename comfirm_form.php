@@ -55,8 +55,15 @@
 
             <form class="d-flex flex-column" method="post">
                 
-            <?php echo "hello " . $_POST["name"] ?>
+            <?php 
             
+                if(isset($_POST["name"]) && $_POST["name"] != ""){
+                    echo "hello " . $_POST["name"];
+                }else {
+                    echo "who is you ?";
+                }
+            ?>
+
             </form>
         </div>
     </div>
