@@ -14,4 +14,8 @@
         header('Location: database.php');
         exit();
     }
+
+    $dsn = 'mysql:host=localhost;dbname=tennis;charset=utf8';
+    $user = 'tennisuser';
+    $password = 'password';
 ?>
